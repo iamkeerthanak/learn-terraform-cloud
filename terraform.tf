@@ -1,10 +1,10 @@
 terraform {
 
   cloud {
-    organization = "organization-name"
+    organization = "hashicrop-prod"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "terraform-repo"
     }
   }
 
